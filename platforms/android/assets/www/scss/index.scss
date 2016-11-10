@@ -1,0 +1,81 @@
+@import "bootstrap";
+@import "font-awesome/font-awesome";
+
+@import "variables";
+@import "mixins";
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: $gray0;
+}
+.btn-default {
+    // background-color: $gray3;
+    // color: white;
+    // border: none;
+    // &:focus {
+    //     background-color: $gray3;
+    //     color: white;
+    //     border: none;
+    // }
+}
+section {
+    position: absolute;
+    display: block;
+    width: 100%;
+    // height: calc(100% - 5rem);
+    margin-bottom: 9rem;
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+
+        &.btn-group {
+            width: 100%;
+
+            .btn {
+                font-size: 3rem;
+                border-radius: 0;
+                text-align: center;
+            }
+        }
+    }
+}
+#display-view {
+    .display-card {
+        color: white;
+        font-size: 15rem;
+        text-align: center;
+        padding: .75rem 0 0;
+    }
+}
+#list-view {
+
+    text-align: center;
+    padding: 0.5rem;
+
+    .card {
+        background-color: $gray1;
+        border-radius: 1rem;
+        color: $gray4;
+        display: inline-block;
+        font-size: 5rem;
+        margin: 1rem;
+        padding: 1rem;
+        text-align: center;
+        width: 9rem;
+        height: 9rem;
+    }
+}
+
+#edit-view {
+    .form-control {
+        display: inline-block;
+        width: auto;
+        // padding: 1rem;
+        // font-size: 3rem;
+    }
+}

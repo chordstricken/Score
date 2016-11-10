@@ -1,0 +1,106 @@
+@mixin screen-xl {
+  @media only screen and (min-width: 1600px) {
+    @content;
+  }
+}
+@mixin screen-lg {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin screen-md {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+@mixin screen-sm {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin screen-xs {
+  @media only screen and (min-width: 480px) {
+    @content;
+  }
+}
+@mixin screen-under-480 {
+  @media only screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin iphone4-landscape {
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    @content;
+  }
+}
+@mixin iphone4-portrait {
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin iphone5-landscape {
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    @content;
+  }
+}
+@mixin iphone5-portrait {
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin iphone6-landscape {
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    @content;
+  }
+}
+@mixin iphone6-portrait {
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin iphone6plus-landscape {
+  @media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    @content;
+  }
+}
+@mixin iphone6plus-portrait {
+  @media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    @content;
+  }
+}
