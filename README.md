@@ -1,3 +1,4 @@
+![Icon](https://score.silvermast.io/favicon.ico)
 Score
 -----
 
@@ -6,6 +7,6 @@ This is is a simple [Planning Poker](https://en.wikipedia.org/wiki/Planning_poke
 
 The build is a simple Cordova instance running a sass-compiled [Bootstrap](https://getbootstrap.com/) and [VueJS](https://vuejs.org)
 
-<img src="https://score.silvermast.io/img/android-list.png" style="width:200px;" />
-<img src="https://score.silvermast.io/img/android-view.png" style="width:200px;" />
-<img src="https://score.silvermast.io/img/android-edit.png" style="width:200px;" />
+![Home Screen](https://score.silvermast.io/img/android-list.png)
+![View Screen](https://score.silvermast.io/img/android-view.png)
+![Edit Screen](https://score.silvermast.io/img/android-edit.png)

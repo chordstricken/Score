@@ -47,4 +47,5 @@
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <engine name="android" spec="~6.0.0" />
+    <hook type="before_prepare" src="hooks/pre-build.sh" />
 </widget>

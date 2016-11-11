@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "private/android.jks",
+            "storePassword": "B1(NN-dNg7m%oRJy*_)Srn83CSvESP*k",
+            "alias": "debug",
+            "password": "6cVRrIads@FoHj2GPb%G@nglR**zyov1",
+            "keystoreType": "JKS"
+        },
+        "release": {
+            "keystore": "private/android.jks",
+            "storePassword": "B1(NN-dNg7m%oRJy*_)Srn83CSvESP*k",
+            "alias": "release",
+            "password": "Wd6a)NUZ7wbjI*YICz3%9Kr-M**EOpfN",
+            "keystoreType": "jks"
+        }
+    }
+}
